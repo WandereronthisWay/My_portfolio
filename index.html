@@ -16,16 +16,16 @@
 		<img src="img/logo.svg" alt="Логотип">
 		<nav class="navigation">
 			<ul class="nav-list">
-				<li class="nav-item"><a href="#" class="nav-link active">Главная</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Проекты</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Обо мне</a></li>
-				<li class="nav-item"><a href="#" class="nav-link">Связаться</a></li>
+				<li class="nav-item"><a href="#main" class="nav-link active">Главная</a></li>
+				<li class="nav-item"><a href="#portfolio" class="nav-link">Проекты</a></li>
+				<li class="nav-item"><a href="#developer" class="nav-link">Обо мне</a></li>
+				<li class="nav-item"><a href="#feedback" class="nav-link">Связаться</a></li>
 			</ul>
 		</nav>
 	</div> <!-- navbar закончен -->
 
-<header class="header container">
-	<img class="header-photo" src="img/горы.jpg" alt="Фото">
+<header class="header container" id="main">
+	<img class="header-photo" src="img/горы_2.jpg" alt="Фото">
 	 <!-- header-photo -->
 	 <div class="header-text">
 	 	<strong class="header-strong">
@@ -53,14 +53,14 @@
 	 </div>
 </header> <!-- /header  -->
 
-<section class="portfolio">
+<section class="portfolio" id="portfolio">
 	<div class="container">
 		<h2 class="section-heading">
 			Последние проекты
 		</h2>
 		<div class="cards">
 			<div class="card">
-				<img src="img/balashiha.png" alt="Мобильное приложение" class="card-img">
+				<img src="img/balashiha.png" alt="Одностраничный сайт" class="card-img">
 				<div class="card-text-wrapper">
 					<h3 class="card-title">Одностраничный продающий сайт компании</h3>
 			<ul class="tags">
@@ -126,7 +126,7 @@
 	</div>
 </section>
 
-<section class="developer container">
+<section class="developer container" id="developer">
 	<img src="img/IMG-20200905-WA0012.jpg" alt="Разработчки" class="developer-photo">
 	<div class="developer-about">
 		<span class="developer-hello">
@@ -167,7 +167,9 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
 			</ul>
 </section>
 
-<section class="feedback form-container">
+<section class="feedback" id="feedback">
+	<img src="img/hand.png" alt="Hand" class="feedback-hand">
+	<div class="form-container">
 	<h2 class="feedback-title">
 		Готов обсудить проект...
 	</h2>
@@ -194,6 +196,7 @@ Tilda, Webflow, Figma, HTML, CSS, JavaScript и Wordpress
 
 	
 	</form>
+	</div>
 </section>
 
 </body>
